@@ -1,0 +1,65 @@
+
+h4 {
+    text-align: center;
+    font-family: BaskervilleLight;
+   
+}
+
+h5{
+    text-align: center;
+    font-family: Pompadur
+}
+
+body{
+    background: url("img/без имени.png");
+    background-size: 700%
+}
+
+.btn-my{
+    background-color: RGBA(148, 127, 103, 0.5) !important;
+}
+
+p{
+    font-weight: 550;
+    font-size: 17;
+    font-family: BaskervilleLight;
+}
+
+.h1{
+    border-radius: 0px 0px 22px 21px;
+    background-color: rgba(226, 202, 180, 0.1);
+    font-style: italic;
+    font-family:Pompadur;
+       }
+
+.link{
+    display: block;
+    cursor: pointer;
+    transition: 0.3s
+/*    //курсор определяет вид курсора, который будет на этом месте. Типа можно обычной мышкой, можно вот таким пальцем, это поинтер, можно всякими песочными часами, запрещающими знаками и кароче че угодно, даже свою картинку*/
+}
+.link:hover{
+    transform: scale(1.1)
+}
+
+.poet{
+    border-radius: 22px 22px 22px 22px;
+    background-color: rgba(191, 169, 148, 1);
+    font-family:Pompadur;
+       }
+
+
+
+
+
+
+
+@font-face{
+    font-family: Pompadur; 
+    src: url(fonts/pompadur.ttf); 
+}
+
+@font-face{
+    font-family: BaskervilleLight;
+    src: url(fonts/BaskervilleLight.ttf);
+}
