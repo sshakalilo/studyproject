@@ -1,8 +1,17 @@
+@font-face{
+    font-family: Pompadur;
+    src: url(fonts/pompadur_font.ttf);
+}
+
+@font-face{
+    font-family: BaskervilleLight;
+    src: url(fonts/BaskervilleLight.ttf);
+}
 
 h4 {
     text-align: center;
     font-family: BaskervilleLight;
-   
+
 }
 
 h5{
@@ -17,12 +26,12 @@ body{
 }
 
 .btn-my{
-    background-color: RGBA(148, 127, 103, 0.5) !important;
+    background-color: rgba(148, 127, 103, 0.5);
 }
 
 p{
-    font-weight: 550;
-    font-size: 17;
+    font-weight: 500;
+    font-size: 17px;
     font-family: BaskervilleLight;
 }
 
@@ -31,7 +40,7 @@ p{
     background-color: rgba(226, 202, 180, 0.1);
     font-style: italic;
     font-family:Pompadur;
-       }
+}
 
 .link{
     display: block;
@@ -47,20 +56,4 @@ p{
     border-radius: 22px 22px 22px 22px;
     background-color: rgba(191, 169, 148, 1);
     font-family:Pompadur;
-       }
-
-
-
-
-
-
-
-@font-face{
-    font-family: Pompadur; 
-    src: url(fonts/pompadur_font.ttf); 
-}
-
-@font-face{
-    font-family: BaskervilleLight;
-    src: url(fonts/BaskervilleLight.ttf);
 }
